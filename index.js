@@ -4,7 +4,7 @@ const client = new discord.Client();
 const ytdl = require('ytdl-core');
 
 client.on('ready', async () => {
-  client.user.setActivity(STATUS + " 😎")
+  client.user.setActivity(STATUS + "Mr.ReKo Up ")
   let channel = client.channels.cache.get(CHANNEL) || await client.channels.fetch(CHANNEL)
 
   if(!channel) return;
@@ -22,4 +22,4 @@ setInterval(async function() {
   }
 }, 20000)
 
-client.login(TOKEN)
+client.login("NzczMTc2NTcwODM5NTY0MzU5.X6Fayw.Ym9zT5bN4LPUTPtLiDGITIOAQOk")
